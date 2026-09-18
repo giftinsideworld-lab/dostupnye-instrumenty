@@ -6,6 +6,20 @@
 
 ---
 
+## Бот живёт отдельно
+
+Код Telegram-бота и установка на чистый сервер одной командой — в собственном репозитории:
+
+**https://github.com/giftinsideworld-lab/agent-bot**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/giftinsideworld-lab/agent-bot/main/install.sh | bash -s -- ТОКЕН_БОТА
+```
+
+Там же описано, какие четыре функции исходного шаблона не работали и как они починены.
+
+---
+
 ## Создать нового Агента с Telegram-ботом
 
 **`создать-агента/развернуть-агента.sh`**
